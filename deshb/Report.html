@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/position.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+		
+	<body>
+	
+	<!--container-fluid start-->	
+		   <div class="container-fluid">
+		   
+				
+				<!-- Logo and Employee image and ID -->
+					<div class="container-fluid text-center">    
+							  <div class="row content">
+							  
+									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sidenav">
+										<img class="logo" src="image/walton-logo-bd.png"/>
+									</div>
+									
+								    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 sidenav"></div>
+									
+									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 sidenav">
+										<img class="emimag" src="image/17499.jpg"/>
+										<p class="emid">17499</p>
+									</div>
+							  
+							  </div>
+					</div>
+					
+			
+		<!--Header navigator bar--->
+							<nav class="navbar navbar-inverse" id="myHeader">
+							     <div class="container-fluid">
+									   <div class="collapse navbar-collapse" id="myNavbar">
+											<ul class="nav navbar-nav">
+												<li><a href="#">Home</a></li>
+												<li><a href="#">Manu_1</a></li>
+												<li><a href="#">Manu_2</a></li>
+												<li><a href="#">Manu_3</a></li>
+												<li><a href="#">Manu_4</a></li>
+											</ul> 
+										</div>
+										
+							     </div>
+							</nav>
+						
+				
+		<!-- report, search, table option-->	  
+					<div class="container-fluid text-center">    
+							  <div class="row content">
+							  
+						<!-- Report and all manue start-->		
+									<div class="col-sm-2 col-md-2 col-lg-2 col-xs-2 sidenav" id="manu">
+									
+									  <div class="row" id="pin_report">
+										  <h1><b>Pin Report</b> (Top five)</h1>
+									  </div>
+									 <div class="row" id="manu_report">
+										  <p>1. Date Wise Closing Report</p>
+										  <p>2. Employee ID Wise accident Report</p>
+										  <p>3. Prescription</p>
+										  <p>4. Top Ten Problems (Live Display)</p>
+										  <p>5. Organization & Date Wise Report (Gatepass Report)</p>
+									 </div> <br>
+									 
+									 
+									 <div class="row" id="pin_report">
+										  <h1><b>All Menu</b></h1>
+									  </div>
+									 <div class="row" id="manu_report">
+										  <p>1.Manu_1</p>
+										  <p>2.Manu_1</p>
+										  <p>3.Manu_1</p>
+										  <p>4.Manu_1</p>
+										  <p>1.Manu_1</p>
+										  <p>5.Manu_1</p>
+										  <p>6.Manu_1</p>
+										  <p>5.Manu_1</p>
+										  
+									 </div>
+								 
+							</div>
+				
+
+						
+							
+			<!-- Search and Table option -->
+				
+				<div class="col-sm-10 col-md-10 col-lg-10 col-xs-10 text-left" id="remanue"> 
+				
+				
+				
+				<!-- Search option -->				
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 sidenav" id="manu">
+									<form class="example">
+										  <input type="text" placeholder="Search.." name="search"/>
+										  <button type="submit"><img src="image/serach.png" style="width:17px; height:17px"/></button>
+									</form>
+								</div> 
+							
+								
+
+			<!-- Search Table option -->				
+						 <table class="table table-bordered">
+								<thead>
+									  <tr>
+										<th>SL</th>
+										<th>Report ID</th>
+										<th>Report Title</th>
+										<th>Module</th>
+										<th>Created Date</th>
+										<th>View</th>
+										<th>Pin</th>
+									  </tr>
+								</thead>
+								<tbody>
+										<tr>
+											<td>01</td>
+											<td>0001</td>
+											<td class="title">Supplier</td>
+											<td class="title">Medical</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>02</td>
+											<td>0002</td>
+											<td class="title">Top Ten Problems (Live Display)</td>
+											<td class="title">WQMS</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>03</td>
+											<td>0003</td>
+											<td class="title">Organization & Date Wise Report (Gatepass Report)</td>
+											<td class="title">Gatepass</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>04</td>
+											<td>0004</td>
+											<td class="title">Acccidental Report</td>
+											<td class="title">Medical</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>05</td>
+											<td>0005</td>
+											<td class="title">Closing</td>
+											<td class="title">Medical</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>06</td>
+											<td>0006</td>
+											<td class="title">Supplier</td>
+											<td class="title">Medical</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>07</td>
+											<td>0007</td>
+											<td class="title">Top Ten Problems (Live Display)</td>
+											<td class="title">WQMS</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>08</td>
+											<td>0008</td>
+											<td class="title">Organization & Date Wise Report (Gatepass Report)</td>
+											<td class="title">Gatepass</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>09</td>
+											<td>0009</td>
+											<td class="title">Acccidental Report</td>
+											<td class="title">Medical</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>10</td>
+											<td>0010</td>
+											<td class="title">Organization & Date Wise Report (Gatepass Report)</td>
+											<td class="title">Gatepass</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>11</td>
+											<td>0011</td>
+											<td class="title">Top Ten Problems (Live Display)</td>
+											<td class="title">WQMS</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>12</td>
+											<td>0012</td>
+											<td class="title">Organization & Date Wise Report (Gatepass Report)</td>
+											<td class="title">Gatepass</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>13</td>
+											<td>0013</td>
+											<td class="title">Top Ten Problems (Live Display)</td>
+											<td class="title">WQMS</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>14</td>
+											<td>0014</td>
+											<td class="title">Organization & Date Wise Report (Gatepass Report)</td>
+											<td class="title">Gatepass</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>15</td>
+											<td>0015</td>
+											<td class="title">Top Ten Problems (Live Display)</td>
+											<td class="title">WQMS</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>16</td>
+											<td>0015</td>
+											<td class="title">Acccidental Report</td>
+											<td class="title">Medical</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>17</td>
+											<td>0015</td>
+											<td class="title">Top Ten Problems (Live Display)</td>
+											<td class="title">WQMS</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										<tr>
+											<td>18</td>
+											<td>0015</td>
+											<td class="title">Organization & Date Wise Report (Gatepass Report)</td>
+											<td class="title">Gatepass</td>
+											<td>07/08/2018</td>
+											<td><a class="btn btn-default" href="search.html" target="_blank">View</a></td>
+											<td class="pin_image"><img src="image/pin.png"/></td>
+										</tr>
+										
+										
+										
+									   
+									</tbody>
+							</table>
+						
+					</div>
+				
+				</div>
+			</div>
+				
+		<!-- report, search, table option end-->
+		
+				
+				
+			<!-- footer start-->	
+				<footer class="container-fluid text-center" id="fo_con">
+				  <p>Developed By: Software Customization & Development (SCAD) Team, IT Department</p>
+				</footer>	
+			<!-- footer end-->	
+				
+	</div>
+	
+	<!--container-fluid end-->	
+	  
+	  <script>
+		window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
+	 </script>
+	
+</body>
+</html>

@@ -1,0 +1,260 @@
+
+/* common Style the Logo, employee image, ID */
+.logo{
+	width:140px;
+	text-align:left;
+	padding:6px;
+}
+.emimag{
+	width:40px;
+	height:40px;
+	float:left;
+	padding:6px;
+}
+.emid{
+	width:30%;
+	float:left;
+	margin-top: 10px;
+	
+}
+
+
+/* report Header navigator bar */
+.navbar-inverse {
+    background-color: #2445a8;
+    border-color: #080808;
+}
+.navbar-inverse .navbar-nav li a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  overflow-y:0;
+}
+
+/* Report Style the pin and all report */
+
+#pin_report{
+	border:1px solid #B6BBC0;
+	border-radius:5px 5px 0 0;
+	background-color:#2445A8;
+	color:white;
+}
+#pin_report h1{
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:15px;
+}
+
+#manu_report{
+	color:black;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:13px;
+	border:1px solid #B6BBC0;
+	border-radius: 0 0 5px 5px;
+	text-align:left;
+	line-height:19px;
+	padding:3px;
+}
+
+#manu_report h1{
+	color:black;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:15px;
+	text-align:center;
+	margin-top:6px;
+}
+#manu_report p{
+	padding-left:8px;
+}
+
+/* Report style the Table SL report title */
+
+.pin_image img{
+	width:20px;
+	height:20px;
+}
+
+.table {
+    margin-bottom: 20px;
+    margin-top: 56px;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+.table > thead > tr > th {
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.title{
+	text-align:left;
+}
+
+
+/* search page report, search, table option */
+#reportid{
+	padding:20px;
+}
+.reportmenue{
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:15px;
+	text-align:left;
+	float:left;
+	margin-top:4px;
+}
+.re_text{
+	float: left;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    height: auto;
+    margin-left: 14px;
+    text-align: left;
+    width: 114px;
+}
+.clone{
+	width:10px;
+	height:auto;
+	font-size:15px;
+	text-align:left;
+	float:left;
+}
+
+.box{
+	width:auto;
+	height:35px;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:15px;
+	border: 1px solid #B6BBC0;
+    border-radius:5px;
+	padding-left:10px;
+	padding:5px;
+	text-align:center;
+	float:left;
+	padding: 5px 52px 5px 5px;
+}
+
+
+/* search  Style the calendar */
+.box_1{
+	width:auto;
+	height:35px;
+	border: 0px solid #B6BBC0;
+	float:left;
+}
+.box_1 input{
+	border: 1px solid #B6BBC0;
+    border-radius: 4px;
+    height: 34px;
+    padding-left: 5px;
+}
+
+
+/* search Style the Report Date Organization */
+#startdate{
+	width:75%;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:15px;
+	border: 1px solid #B6BBC0;
+    border-radius:5px;
+	padding:3px;
+	padding-top:10px;
+	margin-left:6px;
+}
+.select_option{
+	width:auto;
+	height:auto;
+	float:left;
+}
+#search_option{
+	margin-left:59%;
+}
+
+.dropdown, .dropup {
+    position: relative;
+    width: 244%;
+	border: 1px solid #B6BBC0;
+	font-size:15px;
+	border-radius:5px;
+	height:35px;
+}
+
+
+
+
+
+
+
+
+
+
+/* common Style the search field start */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #B6BBC0;
+  border-radius:5px 0px 0px 5px;
+  float: left;
+  width: 80%;
+  background:white;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2445A8;
+  color: white;
+  font-size: 12px;
+  border: 1px solid #B6BBC0;
+  border-radius:0px 5px 5px 0px;
+  border-left: none;
+}
+
+form.example button:hover {
+  background: #1C3684;
+}
+
+
+
+
+
+/* common Style the Footer start */
+#fo_con{
+	color:white;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:12px;
+	border:1px solid #B6BBC0;
+	border-radius:5px;
+	margin-top:20px;
+	background-color:#1C3684;
+}
+#fo_con p{
+	font-size: 10px;
+    margin-top: 7px;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
